@@ -1,4 +1,6 @@
 # Making Paper Reviewing Robust to Bid Manipulation Attacks
+
+
 ## 0. Dependencies and Data Download
 ### 0.1 Dependencies
 ```ortools, scipy, pytorch, numpy, tqdm```
@@ -59,6 +61,21 @@ Comments for the arguments in the script:
 
 ```
 bash scripts/detect_fpr_script.sh
+```
+
+# Reference
+
+This code corresponds to the following paper:
+
+Ruihan Wu*, Chuan Guo*, Felix Wu, Rahul Kidambi, Laurens van der Maaten, and Kilian Q. Weinberger. **[Making Paper Reviewing Robust to Bid Manipulation Attacks](https://arxiv.org/pdf/2102.06020.pdf)**. ICML 2021.
+
+```
+@article{wu2021making,
+  title={Making Paper Reviewing Robust to Bid Manipulation Attacks},
+  author={Wu, Ruihan and Guo, Chuan and Wu, Felix and Kidambi, Rahul and van der Maaten, Laurens and Weinberger, Kilian Q},
+  journal={arXiv preprint arXiv:2102.06020},
+  year={2021}
+}
 ```
 
 # Contributing
